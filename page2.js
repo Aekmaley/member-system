@@ -26,8 +26,8 @@ function goToLogin() {
 
 async function loadMember() {
     try {
-        ({ db } = await import('./config.js'));
-
+        //({ db } = await import('./config.js'));
+        ({ db } = await import('./config.js?v=2'));
         // ตอบสนองเมื่อออกจากระบบในแท็บอื่นด้วย
         db.auth.onAuthStateChange((event) => {
             if (event === 'SIGNED_OUT') {
