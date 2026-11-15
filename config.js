@@ -1,9 +1,9 @@
-const SUPABASE_URL = 'https://YOUR_PROJECT.supabase.co';
-const SUPABASE_PUBLISHABLE_KEY = 'YOUR_PUBLISHABLE_KEY';
+const SUPABASE_URL = 'https://xmdzspqymngdgquakgtg.supabase.co';
+const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_xBTOMM1ma91iC02wRW_32A_AX8hbt47';
 
 if (
-    SUPABASE_URL.includes('YOUR_PROJECT') ||
-    SUPABASE_PUBLISHABLE_KEY === 'YOUR_PUBLISHABLE_KEY'
+    SUPABASE_URL.includes('https://xmdzspqymngdgquakgtg.supabase.co') ||
+    SUPABASE_PUBLISHABLE_KEY === 'sb_publishable_xBTOMM1ma91iC02wRW_32A_AX8hbt47'
 ) {
     throw new Error('กรุณาใส่ Project URL และ Publishable key ใน config.js');
 }
